@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../logo.png"
+import logo from '../assets/images/logo.png';
 
 const Navbar = () => {
   return (
@@ -30,4 +30,4 @@ const Navbar = () => {
   )
 }
 
-export default Navbar
+export default Navbar;
