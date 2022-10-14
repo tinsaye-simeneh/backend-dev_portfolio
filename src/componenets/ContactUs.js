@@ -64,7 +64,7 @@ const ContactUs = () => {
               cols="30" rows="5"
               placeholder="Message"
             />
-
+            <button className="btn btn-warning mt-3" style={{width:'80%'}}>Send</button>
           </form>
         </div>
       </div>
