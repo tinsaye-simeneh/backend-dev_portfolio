@@ -8,7 +8,7 @@ import Mail from "../assets/image/email.svg";
 
 const ContactUs = () => {
   return (
-    <div className="container bg-black p-5" style={{ marginTop: "7%" }}>
+    <div className="container bg-black p-5" style={{ marginTop: "2%" }}>
       <div className="row">
         <div className="col-md-6">
           <h1
@@ -60,7 +60,7 @@ const ContactUs = () => {
             />
             <textarea
               className="border border-secondary bg-white text-secondary rounded p-2 mb-3"
-              style={{ width: "80%" }}
+              style={{ width: "80%",  resize: 'none' }}
               cols="30" rows="5"
               placeholder="Message"
             />
