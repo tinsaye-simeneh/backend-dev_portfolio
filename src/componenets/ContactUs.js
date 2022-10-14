@@ -39,19 +39,32 @@ const ContactUs = () => {
         </div>
         <div className="col-md-6 text-center">
           <form className="p-5 rounded bg-white text-center">
-            <h1 className="caros text-black mb-5" style={{fontSize:'2rem'}}>Contact Us</h1>
+            <h1 className="caros text-black mb-4" style={{fontSize:'2rem'}}>Contact Us</h1>
             <input
               type="text"
-              className="border border-secondary bg-white text-secondary rounded p-2"
+              className="border border-secondary mt-1 bg-white text-secondary rounded p-2 mb-3"
               style={{ width: "80%" }}
-              placeholder="Name"
+              placeholder="Full Name"
+            />
+            <input
+              type="email"
+              className="border border-secondary bg-white text-secondary rounded p-2 mb-3"
+              style={{ width: "80%" }}
+              placeholder="Email"
             />
             <input
               type="text"
-              className="border border-secondary bg-white text-secondary rounded p-2"
+              className="border border-secondary bg-white text-secondary rounded p-2 mb-3"
               style={{ width: "80%" }}
-              placeholder="Name"
+              placeholder="Subject"
             />
+            <textarea
+              className="border border-secondary bg-white text-secondary rounded p-2 mb-3"
+              style={{ width: "80%" }}
+              cols="30" rows="5"
+              placeholder="Message"
+            />
+
           </form>
         </div>
       </div>
