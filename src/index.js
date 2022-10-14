@@ -1,9 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import ContactUs from './componenets/ContactUs';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import Navbar from './components/Navbar';
+import ContactUs from './components/ContactUs';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <ContactUs/>
+  <>
+  <Navbar/>
+  <ContactUs/>
+  </>
 );
+ 
