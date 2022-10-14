@@ -39,7 +39,9 @@ const ContactUs = () => {
         </div>
         <div className="col-md-6 text-center">
           <form className="p-5 rounded bg-white text-center">
-            <h1 className="caros text-black mb-4" style={{fontSize:'2rem'}}>Contact Us</h1>
+            <h1 className="caros text-black mb-4" style={{ fontSize: "2rem" }}>
+              Contact Us
+            </h1>
             <input
               type="text"
               className="border border-secondary mt-1 bg-white text-secondary rounded p-2 mb-3"
@@ -60,11 +62,14 @@ const ContactUs = () => {
             />
             <textarea
               className="border border-secondary bg-white text-secondary rounded p-2 mb-3"
-              style={{ width: "80%",  resize: 'none' }}
-              cols="30" rows="5"
+              style={{ width: "80%", resize: "none" }}
+              cols="30"
+              rows="5"
               placeholder="Message"
             />
-            <button className="btn btn-warning mt-3" style={{width:'80%'}}>Send</button>
+            <button className="btn btn-warning mt-3" style={{ width: "80%" }}>
+              Send
+            </button>
           </form>
         </div>
       </div>
