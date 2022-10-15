@@ -1,31 +1,28 @@
 import React from "react";
 import "../index.css";
-import dashboard from "../assets/images/dashboard.png";
-import ma from "../assets/images/ma.png";
+import { Data } from "./data.js";
 
 const Projects = () => {
-
-    function ProjectCard() {
+  function ProjectCard() {
+      Data.map((data, key) => {
         return (
-        <div className="col-4 py-4 text-white" style={{marginLeft:'10%'}}>
-        <div className="row bg-white">
-          <div className="col-6">
-            <img
-              src={dashboard}
-              alt="project"
-              className="img-fluid"
-              height="auto"
-            />
+          <div className="col-4 py-4 text-white" style={{ marginLeft: "10%" }}>
+            <div className="row bg-white">
+              <div className="col-6 img-fluid">
+                <div key={key}>{data.img}</div>
+              </div>
+              <div className="col-6 text-center pt-4 pb-3">
+                <h5 className="text-black caros"> {data.title}</h5>
+                <p className="text-black caros"> {data.description}</p>
+                <span className="text-secondary caros">
+                  Client: {data.client}{" "}
+                </span>
+              </div>
+            </div>
           </div>
-          <div className="col-6 text-center pt-4 pb-3">
-              <h5 className="text-black caros">Dashboard</h5>
-              <p className="text-black caros">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut porta lorem,</p>
-              <span className="text-secondary caros">Client: Name </span>
-          </div>
-        </div>
-      </div>
-        )
-    }
+        );
+      });
+  }
 
   return (
     <div className="container-fluid mt-5 py-5 bg-black">
@@ -37,13 +34,13 @@ const Projects = () => {
         </div>
       </div>
       <div className="row mt-5">
-        <ProjectCard/>
-        <ProjectCard/>
-        <ProjectCard/>
-        <ProjectCard/>
-        <ProjectCard/>
-        <ProjectCard/>
-        </div>
+        <ProjectCard />
+        <ProjectCard />
+        <ProjectCard />
+        <ProjectCard />
+        <ProjectCard />
+        <ProjectCard />
+      </div>
     </div>
   );
 };

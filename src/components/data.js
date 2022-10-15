@@ -1,4 +1,8 @@
-export const data = [
+
+import dashboard from "../assets/images/dashboard.png";
+import ma from "../assets/images/ma.png";
+
+export const Data = [
     {
     img: { src: dashboard, alt: "project" },
     title: "Dashboard",
