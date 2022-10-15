@@ -40,9 +40,9 @@ const Projects = () => {
       </div>
       <div className="row">
         <div className="col-12 text-center">
-            <button className="btn btn-outline-primary mt-5 caros">
+            <a href="https://github.com/" className="btn btn-outline-primary mt-5 caros">
                 SEE MORE
-            </button>
+            </a>
         </div>
     </div>
     </div>
