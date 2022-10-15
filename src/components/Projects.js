@@ -13,11 +13,23 @@ const Projects = () => {
           </h4>
         </div>
       </div>
-      <div className="row border">
-        <div className="col-4 ms-5 py-2 border text-white">
-            <div className="col-6 border bg-primary">
-                <img src={dashboard} alt="project" className="img-fluid" height='auto' />
-                </div>
+      <div className="row">
+        <div className="col-4 ms-5 py-2 text-white">
+          <div className="row bg-white">
+            <div className="col-6">
+              <img
+                src={dashboard}
+                alt="project"
+                className="img-fluid"
+                height="auto"
+              />
+            </div>
+            <div className="col-6 text-center pt-4 pb-3">
+                <h5 className="text-black caros">Dashboard</h5>
+                <p className="text-black caros">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut porta lorem,</p>
+                <span className="text-secondary caros">Client: Name </span>
+            </div>
+          </div>
         </div>
       </div>
     </div>
