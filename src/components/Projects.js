@@ -3,8 +3,6 @@ import "../index.css";
 import { Data } from "./data.js";
 
 const Projects = () => {
-  function ProjectCard() {}
-
   return (
     <div className="container-fluid mt-5 py-5 bg-black">
       <div className="row">
@@ -40,6 +38,13 @@ const Projects = () => {
           </div>
         ))}
       </div>
+      <div className="row">
+        <div className="col-12 text-center">
+            <button className="btn btn-outline-primary mt-5 caros">
+                SEE MORE
+            </button>
+        </div>
+    </div>
     </div>
   );
 };
