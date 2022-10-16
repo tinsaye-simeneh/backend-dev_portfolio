@@ -35,3 +35,8 @@ text-transform:uppercase;
 .navbar-nav > li > a.hover{
   border-bottom: 0.1875rem solid var(--primary-orange);
 }
+picture {
+  flex:1;
+  flexDirection:column;
+  alignItems: flex-end;
+}
