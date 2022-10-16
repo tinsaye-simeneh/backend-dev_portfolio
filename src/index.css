@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'Caros Regular';
+    src: url('./assets/fonts/Caros-Regular.woff') format('woff');
+    }
+    .caros {
+    font-family: 'Caros Regular';
+    }
