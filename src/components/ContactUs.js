@@ -8,7 +8,7 @@ import Mail from "../assets/image/email.svg";
 
 const ContactUs = () => {
   return (
-    <div className="container bg-black p-5" style={{ marginTop: "2%" }}>
+    <div className="container-fluid bg-black p-5">
       <div className="row">
         <div className="col-md-6">
           <h1
