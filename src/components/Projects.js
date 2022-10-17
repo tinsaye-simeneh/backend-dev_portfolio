@@ -4,10 +4,10 @@ import { Data } from "./data.js";
 
 const Projects = () => {
   return (
-    <div className="container-fluid mt-5 py-5 bg-black">
+    <div className="container-fluid py-5 bg-black">
       <div className="row">
         <div className="col-12">
-          <h4 className="text-center text-white mt-3 caros">
+          <h4 className="text-center text-white caros">
             SOME OF MY RECENT PROJECTS
           </h4>
         </div>
@@ -40,7 +40,7 @@ const Projects = () => {
       </div>
       <div className="row">
         <div className="col-12 text-center">
-            <a href="https://github.com/" className="btn btn-outline-primary mt-5 caros">
+            <a href="https://github.com/" className="btn btn-outline-warning text-white mt-5 caros">
                 SEE MORE
             </a>
         </div>
