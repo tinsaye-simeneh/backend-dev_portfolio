@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="row">
         <div className="col-md-4 text-black">
           © 2021. All Rights Reserved. Designed by
-          <a href="#" className="caros text-decoration-none">
+          <a href="https://t.me/uixnature" className="caros text-decoration-none">
             {" "}
             uix Nature
           </a>
