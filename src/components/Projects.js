@@ -39,7 +39,7 @@ const Projects = () => {
         ))}
       </div>
       <div className="row">
-        <div className="col-12 text-center pb-3">
+        <div className="col-12 text-center pb-5">
             <a href="https://github.com/" className="btn btn-outline-warning text-white mt-3 caros">
                 SEE MORE
             </a>
