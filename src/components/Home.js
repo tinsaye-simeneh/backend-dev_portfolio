@@ -9,7 +9,7 @@ import Mail from "../assets/image/email.svg";
 const Home = () => {
   return (
     <div
-      class="container-fluid px-5 text-left bg-black py-5"
+      class="container-fluid bg-black px-5 py-3"
     >
       <div className="row">
         <div className="col-md-6">
@@ -19,21 +19,21 @@ const Home = () => {
             className="img-fluid"
           />
         </div>
-        <div className="col-md-6 mx-auto">
+        <div className="col-md-6 text-white mx-auto">
           <p
-            className="caros text-white pt-3 text-center"
+            className="caros pt-3 text-center"
             style={{ fontSize: "2.5rem", fontWeight: "bold" }}
           >
             Hi, I am <span className="caros text-yellow">BACKER DEVIS</span>{" "}
           </p>
           <p
-            className="caros text-white text-center"
+            className="caros text-center"
             style={{ fontSize: "1.5rem", fontWeight: "bold" }}
           >
             {" "}
             SENIOR BACKEND DEVELOPER{" "}
           </p>
-          <p className="caros text-white" style={{ fontSize: "1rem" }}>
+          <p className="caros" style={{ fontSize: "1rem" }}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
             laoreet sit amet augue ut vehicula. Nulla scelerisque nunc sed leo
             efficitur gravida. Donec tempor enim eget urna auctor molestie. Nam
@@ -47,8 +47,21 @@ const Home = () => {
             scelerisque nunc sed leo efficitur gravida. Donec tempor enim eget
             urna auctor molestie
           </p>
-        </div>
-        
+          <h5>SkILLS: HTML, CSS, JS, NODE.JS, FIREBASE, PHP</h5>
+        <div className="row mt-5">
+            <img
+              src={Mail}
+              alt="email"
+              className="ms-5"
+              style={{ width: "12%" }}
+            />
+            <img src={linkedin} alt="linkedin" style={{ width: "12%" }} />
+            <img src={twitter} alt="twitter" style={{ width: "12%" }} />
+            <img src={medium} alt="medium" style={{ width: "12%" }} />
+            <img src={dev} alt="dev" style={{ width: "12%" }} />
+            <span>Download My CV</span>
+          </div>
+          </div>
       </div>
       
     </div>
