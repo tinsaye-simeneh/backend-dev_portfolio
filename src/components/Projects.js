@@ -15,19 +15,19 @@ const Projects = () => {
       <div className="row mt-5">
         {Data.map((data) => (
           <div
-            className="col-4 py-4 text-white"
+            className="col-md-4 py-4 text-white mx-auto"
             key={data.id}
-            style={{ marginLeft: "10%" }}
+            style={{ width: "35rem" }}
           >
-            <div className="row bg-white">
-              <div className="col-6 img-fluid">
+            <div className="row bg-white mx-3">
+              <div className="col-md-6 text-center img-fluid">
                 <img
                   src={data.img.src}
                   alt={data.img.alt}
                   className="img-fluid"
                 />
               </div>
-              <div className="col-6 text-center pt-4 pb-3">
+              <div className="col-md-6 text-center pt-4 pb-3">
                 <h5 className="text-black caros"> {data.title}</h5>
                 <p className="text-black caros"> {data.description}</p>
                 <span className="text-secondary caros">

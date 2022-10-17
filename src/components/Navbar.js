@@ -4,7 +4,7 @@ import logo from '../assets/images/logo.png';
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-black pt-3">
-        <div className="container">
+        <div className="container py-3">
 
   <a className="navbar-brand text-white" href="./Home"><img className="logo" src={logo} alt="logo..."/>Backer Devis</a>
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
