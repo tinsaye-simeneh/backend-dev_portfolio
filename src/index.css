@@ -18,4 +18,7 @@
     .heading-text2{
         font-size: 1rem;
     }
+    .notimpo{
+        display:none;
+    }
 }

@@ -7,6 +7,7 @@ import twitter from "../assets/image/twitter.svg";
 import dev from "../assets/image/dev.svg";
 import Mail from "../assets/image/email.svg";
 import Pdf from "../assets/image/pdf.svg";
+import '../index.css'
 
 const Footer = () => {
   return (
@@ -20,7 +21,7 @@ const Footer = () => {
             uix Nature
           </a>
         </div>
-        <div className="col-md-6 text-center text-black">
+        <div className="col-md-6 notimpo text-center text-black">
             <span className="px-2">
           Proudly powered by
     </span>
@@ -37,7 +38,7 @@ const Footer = () => {
           collaborated with <a href="https://github.com/bekisha" className="text-black caros">Bekisha</a>
           </span>
         </div>
-        <div className="col-md-2 text-center">
+        <div className="col-md-2 notimpo text-center">
             <img src={linkedin} alt="linkedin" style={{ width: "20%" }} className="px-2" />
             <img src={twitter} alt="twitter" style={{ width: "20%" }} className="px-2"/>
             <img src={medium} alt="medium" style={{ width: "20%" }} className="px-2"/>
