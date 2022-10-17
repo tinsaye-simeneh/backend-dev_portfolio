@@ -24,7 +24,7 @@ const Home = () => {
             className="caros pt-3 text-center"
             style={{ fontSize: "2.5rem", fontWeight: "bold" }}
           >
-            Hi, I am <span className="caros text-yellow">BACKER DEVIS</span>{" "}
+            Hi, I am <span className="caros text-warning">BACKER DEVIS</span>{" "}
           </p>
           <p
             className="caros text-center"
