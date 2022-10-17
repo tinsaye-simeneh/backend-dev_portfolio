@@ -12,12 +12,11 @@ const Home = () => {
       class="container-fluid px-5 text-left bg-black py-5"
     >
       <div className="row">
-        <div className="col-md-6 mt-5">
+        <div className="col-md-6">
           <img
             src={profilepicture}
-            alt="Backer devis"
-            className="pp"
-            width={450}
+            alt="Backer devis img"
+            className="img-fluid"
           />
         </div>
         <div className="col-md-6 mx-auto">
