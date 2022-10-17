@@ -1,8 +1,10 @@
 import React from "react";
 import logo from '../assets/images/logo.png';
+import { Outlet, Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
+    <>
     <nav className="navbar navbar-expand-lg navbar-dark bg-black pt-3">
         <div className="container py-3">
 
@@ -14,19 +16,27 @@ const Navbar = () => {
   <div className="collapse navbar-collapse text-center" id="navbarSupportedContent">
     <ul className="navbar-nav ms-auto">
       <li className="nav-item active">
-        <a className="nav-link" href="./Home">Home <span className="sr-only"></span></a>
+      <Link to="/" className="nav-link">
+       Home 
+        </Link>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="./Projects">Portfolio</a>
+      <Link to="/projects" className="nav-link">
+       Portfolio 
+        </Link>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="./ContactUs">Contact Me</a>
+      <Link to="/contact" className="nav-link">
+       Contact Us 
+        </Link>
       </li>
        </ul>
   
   </div>
   </div>
 </nav>
+<Outlet/>
+</>
   )
 }
 
