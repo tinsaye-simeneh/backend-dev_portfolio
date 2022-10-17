@@ -62,7 +62,7 @@ const Home = () => {
             <img src={medium} alt="medium" style={{ width: "12%" }} className="px-2"/>
             <img src={dev} alt="dev" style={{ width: "12%" }} className="px-2"/> 
           </div>
-          <div className="col-md-4 text-center">
+          <div className="col-md-4 text-center pb-3">
             <button
               className="btn text-white" 
             >
