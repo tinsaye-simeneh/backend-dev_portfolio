@@ -15,7 +15,7 @@ const Projects = () => {
       <div className="row mt-5">
         {Data.map((data) => (
           <div
-            className="col-md-4 py-4 text-white mx-auto"
+            className="col-md-4 pt-4 text-white mx-auto"
             key={data.id}
             style={{ width: "35rem" }}
           >
