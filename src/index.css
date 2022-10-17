@@ -11,6 +11,9 @@
 .heading-text2{
     font-size: 1.5rem;
 }
+.contactinputs{
+    width: 80%;
+}
 @media screen and (max-width: 768px) {
     .heading-text{
         font-size: 1.5rem;
@@ -20,5 +23,11 @@
     }
     .notimpo{
         display:none;
+    }
+    .contactinputs{
+        width: 100%;
+    }
+    .contactdiv{
+        width: 100%;
     }
 }

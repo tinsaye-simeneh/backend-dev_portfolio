@@ -5,10 +5,11 @@ import linkedin from "../assets/image/linkedin.svg";
 import twitter from "../assets/image/twitter.svg";
 import dev from "../assets/image/dev.svg";
 import Mail from "../assets/image/email.svg";
+import '../index.css';
 
 const ContactUs = () => {
   return (
-    <div className="container-fluid bg-black p-5">
+    <div className="container-fluid bg-black">
       <div className="row">
         <div className="col-md-6">
           <h1
@@ -24,7 +25,7 @@ const ContactUs = () => {
           >
             Lets create something better
           </p>
-          <div className="row mt-5">
+          <div className="row mt-5 mb-3">
             <img
               src={Mail}
               alt="email"
@@ -37,37 +38,34 @@ const ContactUs = () => {
             <img src={dev} alt="dev" style={{ width: "12%" }} />
           </div>
         </div>
-        <div className="col-md-6 text-center">
+        <div className="col col-sm-12 col-md-6 text-center pb-5">
           <form className="p-5 rounded bg-white text-center">
             <h1 className="caros text-black mb-4" style={{ fontSize: "2rem" }}>
               Contact Us
             </h1>
             <input
               type="text"
-              className="border border-secondary mt-1 bg-white text-secondary rounded p-2 mb-3"
-              style={{ width: "80%" }}
+              className="border border-secondary mt-1 bg-white text-secondary rounded p-2 mb-3 contactinputs"
               placeholder="Full Name"
             />
             <input
               type="email"
-              className="border border-secondary bg-white text-secondary rounded p-2 mb-3"
-              style={{ width: "80%" }}
+              className="border border-secondary bg-white text-secondary rounded p-2 mb-3 contactinputs"
               placeholder="Email"
             />
             <input
               type="text"
-              className="border border-secondary bg-white text-secondary rounded p-2 mb-3"
-              style={{ width: "80%" }}
+              className="border border-secondary bg-white text-secondary rounded p-2 mb-3 contactinputs"
               placeholder="Subject"
             />
             <textarea
-              className="border border-secondary bg-white text-secondary rounded p-2 mb-3"
-              style={{ width: "80%", resize: "none" }}
+              className="border border-secondary bg-white text-secondary rounded p-2 mb-3 contactinputs"
+              style={{ resize: "none" }}
               cols="30"
               rows="5"
               placeholder="Message"
             />
-            <button className="btn btn-warning mt-3" style={{ width: "80%" }}>
+            <button className="btn btn-warning mt-3 contactinputs">
               Send
             </button>
           </form>
