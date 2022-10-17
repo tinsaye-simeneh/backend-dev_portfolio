@@ -39,8 +39,8 @@ const Projects = () => {
         ))}
       </div>
       <div className="row">
-        <div className="col-12 text-center">
-            <a href="https://github.com/" className="btn btn-outline-warning text-white mt-5 caros">
+        <div className="col-12 text-center pb-3">
+            <a href="https://github.com/" className="btn btn-outline-warning text-white mt-3 caros">
                 SEE MORE
             </a>
         </div>
