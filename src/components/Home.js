@@ -10,10 +10,10 @@ import Pdf from "../assets/image/pdf.svg";
 const Home = () => {
   return (
     <div
-      class="container-fluid bg-black px-5 py-3"
+      class="container-fluid bg-black px-5 py-4"
     >
       <div className="row">
-        <div className="col-md-6">
+        <div className="col-md-4 mt-5">
           <img
             src={profilepicture}
             alt="Backer devis img"
@@ -50,11 +50,11 @@ const Home = () => {
           </p>
           <h5>SkILLS: HTML, CSS, JS, NODE.JS, FIREBASE, PHP</h5>
         <div className="row mt-5">
-          <div className="col-md-8">
+          <div className="col-md-8 mb-2 text-center">
             <img
               src={Mail}
               alt="email"
-              className="ms-5 px-2"
+              className="px-2"
               style={{ width: "12%" }}
             />
             <img src={linkedin} alt="linkedin" style={{ width: "12%" }} className="px-2" />
