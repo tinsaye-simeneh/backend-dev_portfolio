@@ -5,6 +5,7 @@ import linkedin from "../assets/image/linkedin.svg";
 import twitter from "../assets/image/twitter.svg";
 import dev from "../assets/image/dev.svg";
 import Mail from "../assets/image/email.svg";
+import Pdf from "../assets/image/pdf.svg";
 
 const Home = () => {
   return (
@@ -49,18 +50,29 @@ const Home = () => {
           </p>
           <h5>SkILLS: HTML, CSS, JS, NODE.JS, FIREBASE, PHP</h5>
         <div className="row mt-5">
+          <div className="col-md-8">
             <img
               src={Mail}
               alt="email"
-              className="ms-5"
+              className="ms-5 px-2"
               style={{ width: "12%" }}
             />
-            <img src={linkedin} alt="linkedin" style={{ width: "12%" }} />
-            <img src={twitter} alt="twitter" style={{ width: "12%" }} />
-            <img src={medium} alt="medium" style={{ width: "12%" }} />
-            <img src={dev} alt="dev" style={{ width: "12%" }} />
-            <span>Download My CV</span>
+            <img src={linkedin} alt="linkedin" style={{ width: "12%" }} className="px-2" />
+            <img src={twitter} alt="twitter" style={{ width: "12%" }} className="px-2"/>
+            <img src={medium} alt="medium" style={{ width: "12%" }} className="px-2"/>
+            <img src={dev} alt="dev" style={{ width: "12%" }} className="px-2"/> 
           </div>
+          <div className="col-md-4">
+          <img src={Pdf} alt="email" style={{ width: "12%" }} className="d-inline"/> 
+            <button
+              className="btn text-white" 
+            >
+              Download My CV
+            </button>
+            </div>
+
+          </div>
+          
           </div>
       </div>
       
