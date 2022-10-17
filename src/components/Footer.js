@@ -4,7 +4,7 @@ import reaclate from "../assets/images/reaclate.png";
 
 const Footer = () => {
   return (
-    <div className="container-fluid bg-white py-3 border">
+    <div className="container-fluid bg-white py-2 border">
       <div className="row">
         <div className="col-md-4 text-black">
           © 2021. All Rights Reserved. Designed by
