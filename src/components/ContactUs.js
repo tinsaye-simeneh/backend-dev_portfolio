@@ -10,32 +10,37 @@ import '../index.css';
 const ContactUs = () => {
   return (
     <div className="container-fluid bg-black">
-      <div className="row">
+      <div className="row text-center">
         <div className="col-md-6">
           <h1
-            className="caros text-white px-5 pt-5"
-            style={{ fontSize: "3.5rem", fontWeight: "bold" }}
+            className="caros text-white px-5 pt-5 leftText"
+            style={{fontWeight: "bold" }}
           >
             Lets Chat <br />
             Tell me about <br /> your project
           </h1>
           <p
             className="caros text-white px-5 pt-2"
-            style={{ fontSize: "1.5rem" }}
           >
             Lets create something better
           </p>
-          <div className="row mt-5 mb-3">
+          <div className="row mt-5 mb-4">
+            <div className="col-12">
             <img
               src={Mail}
               alt="email"
-              className="ms-5"
+              className="px-2"
               style={{ width: "12%" }}
             />
-            <img src={linkedin} alt="linkedin" style={{ width: "12%" }} />
-            <img src={twitter} alt="twitter" style={{ width: "12%" }} />
-            <img src={medium} alt="medium" style={{ width: "12%" }} />
-            <img src={dev} alt="dev" style={{ width: "12%" }} />
+            <img src={linkedin} alt="linkedin" 
+              className="px-2" style={{ width: "12%" }} />
+            <img src={twitter} alt="twitter" 
+              className="px-2" style={{ width: "12%" }} />
+            <img src={medium} alt="medium" 
+              className="px-2" style={{ width: "12%" }} />
+            <img src={dev} alt="dev" 
+              className="px-2" style={{ width: "12%" }} />
+            </div>
           </div>
         </div>
         <div className="col col-sm-12 col-md-6 text-center pb-5">

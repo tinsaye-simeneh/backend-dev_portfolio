@@ -14,6 +14,9 @@
 .contactinputs{
     width: 80%;
 }
+.leftText{
+    font-size: 3.5rem;
+}
 @media screen and (max-width: 768px) {
     .heading-text{
         font-size: 1.5rem;
@@ -29,5 +32,8 @@
     }
     .contactdiv{
         width: 100%;
+    }
+    .leftText{
+        font-size: 2.5rem;
     }
 }
