@@ -10,7 +10,8 @@ import Pdf from "../assets/image/pdf.svg";
 
 const Footer = () => {
   return (
-    <div className="container-fluid bg-white py-2 border">
+    <div className="container-fluid bg-white pt-2" style={{ position: 'fixed',
+        bottom: '0'}}>
       <div className="row">
         <div className="col-md-4 text-black">
           © 2021. All Rights Reserved. Designed by
@@ -36,7 +37,7 @@ const Footer = () => {
           collaborated with <a href="https://github.com/bekisha" className="text-black caros">Bekisha</a>
           </span>
         </div>
-        <div className="col-md-2 mb-2 text-center">
+        <div className="col-md-2 text-center">
             <img src={linkedin} alt="linkedin" style={{ width: "20%" }} className="px-2" />
             <img src={twitter} alt="twitter" style={{ width: "20%" }} className="px-2"/>
             <img src={medium} alt="medium" style={{ width: "20%" }} className="px-2"/>

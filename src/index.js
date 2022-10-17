@@ -1,10 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import Navbar from "./components/Navbar";
+import Fixed from "./Fixed-comps";
 import ContactUs from "./components/ContactUs";
 import Projects from "./components/Projects";
 import Home from "./components/Home";
-import Footer from "./components/Footer";
 import { Router, Routes, Route, BrowserRouter } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -13,7 +12,7 @@ export default function App() {
     <>
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Footer />}>
+        <Route path="/" element={<Fixed />}>
           <Route index element={<Home />} />
           <Route path="projects" element={<Projects />} />
           <Route path="contact" element={<ContactUs />} />
