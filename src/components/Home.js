@@ -22,14 +22,14 @@ const Home = () => {
         </div>
         <div className="col-md-6 text-white mx-auto">
           <p
-            className="caros pt-3 text-center"
-            style={{ fontSize: "2.5rem", fontWeight: "bold" }}
+            className="caros pt-3 text-center heading-text"
+            style={{fontWeight: "bold" }}
           >
             Hi, I am <span className="caros text-warning">BACKER DEVIS</span>{" "}
           </p>
           <p
-            className="caros text-center"
-            style={{ fontSize: "1.5rem", fontWeight: "bold" }}
+            className="caros text-center heading-text2"
+            style={{fontWeight: "bold" }}
           >
             {" "}
             SENIOR BACKEND DEVELOPER{" "}
@@ -62,12 +62,14 @@ const Home = () => {
             <img src={medium} alt="medium" style={{ width: "12%" }} className="px-2"/>
             <img src={dev} alt="dev" style={{ width: "12%" }} className="px-2"/> 
           </div>
-          <div className="col-md-4">
-          <img src={Pdf} alt="email" style={{ width: "12%" }} className="d-inline"/> 
+          <div className="col-md-4 text-center">
             <button
               className="btn text-white" 
             >
+              <img src={Pdf} alt="pdf-icon" style={{ width: "12%" }} className="mb-1"/> 
+              <span className="px-2">
               Download My CV
+              </span>
             </button>
             </div>
 
