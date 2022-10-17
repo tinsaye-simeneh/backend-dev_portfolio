@@ -5,8 +5,6 @@ import medium from "../assets/image/medium.svg";
 import linkedin from "../assets/image/linkedin.svg";
 import twitter from "../assets/image/twitter.svg";
 import dev from "../assets/image/dev.svg";
-import Mail from "../assets/image/email.svg";
-import Pdf from "../assets/image/pdf.svg";
 import '../index.css'
 
 const Footer = () => {

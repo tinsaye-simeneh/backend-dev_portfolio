@@ -4,7 +4,7 @@ import Fixed from "./Fixed-comps";
 import ContactUs from "./components/ContactUs";
 import Projects from "./components/Projects";
 import Home from "./components/Home";
-import { Router, Routes, Route, BrowserRouter } from "react-router-dom";
+import { Routes, Route, BrowserRouter } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 export default function App() {
